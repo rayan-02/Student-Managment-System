@@ -22,7 +22,7 @@ class StudentManagementSystem:
         
 
     def add_student(self):
-       name = input("Enter Student Name: ").capitalize
+       name = input("Enter Student Name: ").capitalize()
        roll = int(input("Enter Student Roll Number: "))
        age = int(input("Enter Student Age: "))
        gpa = float(input("Enter Student GPA: "))
